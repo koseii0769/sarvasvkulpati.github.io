@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
-<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
-<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
+
 <head>
     <title>Sarvasv Kulpati</title>
     <!-- Meta -->
@@ -10,284 +8,269 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="My personal website">
     <link rel="shortcut icon" href="favicon.ico">  
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-    <!-- Global CSS -->
-    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <!-- Plugins CSS -->
-    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
-    
-    <!-- Theme CSS -->  
-    <link id="theme-style" rel="stylesheet" href="assets/css/styles-2.css">
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">     <!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111773028-1"></script>
 	<script>
   		window.dataLayer = window.dataLayer || [];
 		function gtag(){dataLayer.push(arguments);}
   		gtag('js', new Date());
-
   		gtag('config', 'UA-111773028-1');
 	</script>
-
-</head> 
+</head>
 
 <body>
-    <div class="wrapper">
-        <div class="sidebar-wrapper">
-            <div class="profile-container">
-                
-                <h1 class="name">Sarvasv Kulpati</h1>
-            </div><!--//profile-container-->
-            
-            <div class="contact-container container-block">
-                <ul class="list-unstyled contact-list">
-                    <li class="email"><i class="fa fa-envelope"></i><a href="mailto: sarvasvkulpati@gmail.com">sarvasvkulpati@gmail.com</a></li>
-                    <li class="linkedin"><i class="fa fa-linkedin"></i><a href="https://www.linkedin.com/in/sarvasvkulpati/" target="_blank">SarvasvKulpati</a></li>
-                    <li class="twitter"><i class="fa fa-twitter"></i><a href="https://twitter.com/SarvasvKulpati" target="_blank">@SarvasvKulpati</a></li>
-                    <li class="medium"><i class="fa fa-medium"></i><a href="https://medium.com/@sarvasvkulpati" target="_blank">Blog</a></li>
-                </ul>
-            </div><!--//contact-container-->
+    <section class="header">
+        <div class="flex-container" id="header-info">
+            <div id="header-text">
+                <div id="header-name">
+                    <p >Sarvasv Kulpati</p>
+                </div>
+                <div id="header-sub">
+                    <p>Programmer | AI Enthusiast | Writer</p>
+                </div>
+                <div id="header-social">
 
-            
-            <div class="interests-container container-block">
-                <h2 class="container-block-title">Interests</h2>
-                <ul class="list-unstyled interests-list">
-                    <li>Machine Learning</li>
-                    <li>Programming</li>
-                    <li>Startups</li>
-                    <li>Writing</li>
-                    <li>Painting</li>
-                    <li>Videography</li>
-                </ul>
-            </div><!--//interests-->
-            
-        </div><!--//sidebar-wrapper-->
+                    <div><a href="https://www.linkedin.com/in/sarvasvkulpati/" target="blank_"><i class="fab fa-linkedin-in"></i></a></div>
+                    <div><a href="https://twitter.com/SarvasvKulpati" target="blank_"><i class="fab fa-twitter"></i></a></div>
+                    <div><a href="https://github.com/sarvasvkulpati" target="blank_"><i class="fab fa-github"></i></a></div>
+                    <div><a href="https://medium.com/@sarvasvkulpati" target="blank_"><i class="fab fa-medium-m"></i></a></div>
+                    <div><a href="mailto:sarvasvkulpati@gmail.com" target="blank_"><i class="fas fa-envelope"></i></a></div>
+
+                </div>
+            </div>
+            <div id="header-image">
+                <img src="images/me.jpg" id="face-img">
+            </div>
+        </div>
+    </section>
+    
+    <section class="about">
+        <div id="about-text">
+            <p> Hi! I’m a 16 year old junior living in Singapore. 
+                I’m really interested in making things- check out 
+                my <a href="#achievements">achievements</a>, <a href="#publications">publications</a>, <a href="#eventsandprojects">events</a> I’ve organised, and <a href="#eventsandprojects">projects</a>.<br><br>
+                I’m currently working on <a href="http://mlblocks.com">mlBLocks</a>- a startup that makes machine learning more accessible.
+            </p>
+        </div>
         
-        <div class="main-wrapper">
+    </section>
+
+    <section class="achievements" id="achievements">
+        <h1 id="achievements-title">Achievements</h1>
+        <div id="achievements-list">
+            <div class="achievement-block">
+                <div>
+                    <p class="achievement-title">mlBlocks</p>
+                </div>
+                <div >
+                    <div class="achievement-description">
+                        <p>A website that allows you to make Machine Learning models without code</p>
+                    </div>
+                    <div class="achievement-prize">
+                        <p>Winner of most innovative startup and $10,000 at Ideasinc@NTU</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="achievement-block">
+                    <div>
+                        <p class="achievement-title">Opinir</p>
+                    </div>
+                    <div >
+                        <div class="achievement-description">
+                            <p>I was a software development intern at a startup where I made the iOS app,<br>
+                                Web scrapers for data and a machine learning algorithm for ranking reviews.</p>
+                        </div>
+                        <div class="achievement-prize">
+                            <p></p>
+                        </div>
+                    </div>
+            </div>
+
+            <div class="achievement-block">
+                    <div>
+                        <p class="achievement-title">CommandF</p>
+                    </div>
+                    <div >
+                        <div class="achievement-description">
+                            <p>A chrome extension that allows you to semantically search through videos</p>
+                        </div>
+                        <div class="achievement-prize">
+                            <p>Winner of iNTUition Hackathon 2018</p>
+                        </div>
+                    </div>
+            </div>
+
+            <div class="achievement-block">
+                    <div>
+                        <p class="achievement-title">Digest</p>
+                    </div>
+                    <div >
+                        <div class="achievement-description">
+                            <p>A website that finds articles that fit the amount of time you have to read them</p>
+                        </div>
+                        <div class="achievement-prize">
+                            <p>Winner of StudentHacks 2018</p>
+                        </div>
+                    </div>
+            </div>
+
+            <div class="achievement-block">
+                    <div>
+                        <p class="achievement-title">Foodie</p>
+                    </div>
+                    <div >
+                        <div class="achievement-description">
+                            <p>An app that allows you to find out the calories in your food with just a photo</p>
+                        </div>
+                        <div class="achievement-prize">
+                            <p>Winner of IDEAHacks 2017</p>
+                        </div>
+                    </div>
+            </div>
+
+            <div class="achievement-block">
+                    <div>
+                        <p class="achievement-title">Questo</p>
+                    </div>
+                    <div >
+                        <div class="achievement-description">
+                            <p>An app that automatically generates questions from a photo of a textbook</p>
+                        </div>
+                        <div class="achievement-prize">
+                            <p>Winner of IDEAHacks 2016 and the PitchIT competition at Fintech Festival</p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="publications" id="publications">
+        <h1 id="achievements-title">Publications</h1>
+
+        <div id="card-container">
+            <a href="https://medium.freecodecamp.org/what-i-learned-from-creating-and-shipping-my-first-app-in-a-day-9f79010765f0">
+                <div class="card">
+                    <div class="card-top">
+                        <img src="images/me.jpg" class="profile-pic">
+                        <div class="card-top-text">
+                            <p class="card-profile"><span>Sarvasv Kulpati</span> in <span>freeCodeCamp.org</span></p>
+                            <p class="card-info">Apr 23, 2018<span style="font-size: 20px;">&nbsp</span> 4 min read</p>
+                        </div>
+                    </div>
+                    <div class="card-center" id="p1">
+                        <!-- <img src="./tensorflow.png" class="card-picture"> -->
+                    </div>
+                    <div class="card-bottom">
+                        <p class="article-title">What I learned from creating and shipping my first app in a day</p>
+                        <p class="article-desc">An exercise in destroying perfectionism and achieving creative potential</p>                        </p>
+                        <p class="read-more-tag">Read more...</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://hackernoon.com/you-need-to-go-on-an-information-diet-def2f5a3fd5b">
+            <div class="card">
+                <div class="card-top">
+                    <img src="images/me.jpg" class="profile-pic">
+                    <div class="card-top-text">
+                        <p class="card-profile"><span>Sarvasv Kulpati</span> in <span>Hackernoon</span></p>
+                        <p class="card-info">Dec 27, 2017<span style="font-size: 20px;">.</span> 4 min read</p>
+                    </div>
+                </div>
+                <div class="card-center" id="p2">
+                    <!-- <img src="./tensorflow.png" class="card-picture"> -->
+                </div>
+                <div class="card-bottom">
+                    <p class="article-title">You Need To Go On An Information Diet</p>
+                    <p class="article-desc">We live in a society of drug addicts. Your best friend is probably one. So is your family....</p>
+                    <p class="read-more-tag">Read more...</p>
+                </div>
+            </div></a>
+
+            <a href="https://towardsdatascience.com/can-ai-be-creative-2f84c5c73dca">
+            <div class="card">
+                <div class="card-top">
+                    <img src="images/me.jpg" class="profile-pic">
+                    <div class="card-top-text">
+                        <p class="card-profile"><span>Sarvasv Kulpati</span> in <span>Towards Data Science</span></p>
+                        <p class="card-info">Apr 18 <span style="font-size: 20px;">.</span> 6 min read</p>
+                    </div>
+                </div>
+                <div class="card-center" id="p3">
+                    <!-- <img src="./tensorflow.png" class="card-picture"> -->
+                </div>
+                <div class="card-bottom">
+                    <p class="article-title">Can AI be creative?</p>
+                    <p class="article-desc">A comprehensive look at the state of computers and creativity</p>
+                    <p class="read-more-tag">Read more...</p>
+                </div>
+            </div>
+            </a>
+
+            <a href="https://medium.freecodecamp.org/why-im-teaching-younger-students-at-my-school-how-to-code-f74ba3f174e3">
+            <div class="card">
+                <div class="card-top">
+                    <img src="images/me.jpg" class="profile-pic">
+                    <div class="card-top-text">
+                        <p class="card-profile"><span>Sarvasv Kulpati</span> in <span>Hackernoon</span></p>
+                        <p class="card-info">Apr 18 <span style="font-size: 20px;">.</span> 6 min read</p>
+                    </div>
+                </div>
+                <div class="card-center" id="p4">
+                    <!-- <img src="./tensorflow.png" class="card-picture"> -->
+                </div>
+                <div class="card-bottom">
+                    <p class="article-title">Why I’m Teaching Younger Students At My School How To Code</p>
+                    <p class="article-desc">And why you should teach someone how to code, too</p>
+                    <p class="read-more-tag">Read more...</p>
+                </div>
+            </div>
+        </a>
+        </div>
+        
+    </section>
+
+    <section class="eventsandprojects" id="eventsandprojects">
+
+        <div class="events">
+            <h1 id="achievements-title">Events</h1>
+
+            <div class="events-list">
+                <p>The Life Challenge 2017</p>
+                <p>Tech Club</p>
+                <p>The Lego Challenge</p>
+                <p>The Coding and AI Society</p>
+                <p>The Biomimicry Challenge</p>
+            </div>
+        </div>
+
+        <div class="projects">
+            <h1 id="achievements-title">Projects</h1>
+
+            <div class="events-list">
+                <p>Machine Learning Style Transfer</p>
+                <p>Smile detector</p>
+                <p>AI Art Instagram</p>
+                <p>Best Machine Learning Datasets</p>
+            </div>
             
-            <section class="section summary-section">
-                <h2 class="section-title"><i class="fa fa-user"></i>About me</h2>
-                <div class="summary">
-                    <p> <b>I'm a 15 year old high-schooler interested in Artificial Intelligence, Startups and Technology.</b> <br>I also like to paint, write, make videos, and organise activities and competitions. I'm also a black belt in Karate </p>
-                </div><!--//summary-->
-            </section><!--//section-->
-            
+        </div>
 
-            <section class="skills-section section">
-                <h2 class="section-title"><i class="fa fa-rocket"></i>Skills &amp; Proficiency</h2>
-                <div class="skillset">        
-                    <div class="item">
-                        <p class="level-title"><b>Creating RESTful APIs</b><br>Python </p>
-                        <div class="level-bar">
-                            <div class="level-bar-inner" data-level="98%">
-                            </div>                                      
-                        </div><!--//level-bar-->                                 
-                    </div><!--//item-->
-                    
-                    <div class="item">
-                        <p class="level-title"><b>Creating iOS Apps</b><br> Swift</p>
-                        <div class="level-bar">
-                            <div class="level-bar-inner" data-level="98%">
-                            </div>                                      
-                        </div><!--//level-bar-->                                 
-                    </div><!--//item-->
-                    
-                    <div class="item">
-                        <p class="level-title"><b>Artificial Intelligence</b><br>Tensorflow, Keras, Scikit<p>
-                        <div class="level-bar">
-                            <div class="level-bar-inner" data-level="90%">
-                            </div>                                      
-                        </div><!--//level-bar-->                                 
-                    </div><!--//item-->
-
-                    <div class="item">
-                        <p class="level-title"><b>Augmented Reality</b><br>  ARKit</p>
-                        <div class="level-bar">
-                            <div class="level-bar-inner" data-level="90%">
-                            </div>                                      
-                        </div><!--//level-bar-->                                 
-                    </div><!--//item-->
-                    
-                    <div class="item">
-                        <p class="level-title"><b>Creating Websites</b><br>HTML, CSS, JS</p>
-                        <div class="level-bar">
-                            <div class="level-bar-inner" data-level="85%">
-                            </div>                                      
-                        </div><!--//level-bar-->                                 
-                    </div><!--//item-->
-                    
-                    <div class="item">
-                        <p class="level-title"><b>Organizing Events</b></p>
-                        <div class="level-bar">
-                            <div class="level-bar-inner" data-level="85%">
-                            </div>                                      
-                        </div><!--//level-bar-->                                 
-                    </div><!--//item-->
-                    
-                    <div class="item">
-                        <h3 class="level-title">Premiere Pro &amp; Photoshop</h3>
-                        <div class="level-bar">
-                            <div class="level-bar-inner" data-level="80%">
-                            </div>                                      
-                        </div><!--//level-bar-->                                 
-                    </div><!--//item-->
-                    
-                </div>  
-            </section><!--//skills-section-->
-
-
-
-            <section class="section experiences-section">
-                <h2 class="section-title"><i class="fa fa-briefcase"></i>Experiences</h2>
-                
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">Questo</h3>
-                            <div class="time">2016</div>
-                        </div><!--//upper-row-->
-                    </div><!--//meta-->
-                    <div class="details">
-                        <p>I was the founding member of an app that generates questions for revision from a photo of your textbook</p>
-                    </div><!--//details-->
-                </div><!--//item-->
-                
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">Tech Club</h3>
-                            <div class="time">2017-present</div>
-                        </div><!--//upper-row-->
-                    </div><!--//meta-->
-                    <div class="details">
-                        <p>I started an activity in school to teach middle-schoolers how to code, use electronics, and 3d print stuff.</p>  
-                        
-                    </div><!--//details-->
-                </div><!--//item-->
-                
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">Foodie</h3>
-                            <div class="time">2017-present</div>
-                        </div><!--//upper-row-->
-                    </div><!--//meta-->
-                    <div class="details">
-                        <p>I made an app that uses artificial intelligence to automatically detect the calories and nutrients in your food ith just a photo of it</p>  
-                    </div><!--//details-->
-                </div><!--//item-->
-
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">Paint3d</h3>
-                            <div class="time">2017</div>
-                        </div><!--//upper-row-->
-                    </div><!--//meta-->
-                    <div class="details">
-                        <p>This is an app I made that adds a whole new dimension to art by allowing you to paint with emojis and colours in augmented reality</p>  
-                    </div><!--//details-->
-                </div><!--//item-->
-
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">Machine Learning</h3>
-                            <div class="time">2017-present</div>
-                        </div><!--//upper-row-->
-                    </div><!--//meta-->
-                    <div class="details">
-                        <p>I do various machine learning projects. Check out my <a href="https://github.com/sarvasvkulpati">github</a></p>  
-                    </div><!--//details-->
-                </div><!--//item-->
-
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">Hydroponics</h3>
-                            <div class="time">2017-present</div>
-                        </div><!--//upper-row-->
-                    </div><!--//meta-->
-                    <div class="details">
-                        <p>A system of urban farming set up in school that uses only water to grow plants. It's main purpose is to experiment and find a sustainable way of growing crops in a highly urbanised world</p>  
-                    </div><!--//details-->
-                </div><!--//item-->
-
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">Smart Mirror</h3>
-                            <div class="time">2017</div>
-                        </div><!--//upper-row-->
-                    </div><!--//meta-->
-                    <div class="details">
-                        <p>By placing a two way mirror in front of a screen, you get a smart mirror, where text seems to just appear floating. I made it for my schools makerspace to increase interest in making stuff.</p>  
-                    </div><!--//details-->
-                </div><!--//item-->
-
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">Blog</h3>
-                            <div class="time">2017- present</div>
-                        </div><!--//upper-row-->
-                    </div><!--//meta-->
-                    <div class="details">
-                        <p>I write about whatever interests me, generally technology, startups, and marketing. More than 30,000 views and 600 followers and counting, </p>  
-                    </div><!--//details-->
-                </div><!--//item-->
-                
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">Organising Challenges</h3>
-                            <div class="time">2017</div>
-                        </div><!--//upper-row-->
-                    </div><!--//meta-->
-                    <div class="details">
-                        <p>I've organised a couple of competitions in my school like the LIFE challenge and LEGO challenge</p>  
-                    </div><!--//details-->
-                </div><!--//item-->
-
-            </section><!--//section-->
-            
-            <section class="section projects-section">
-                <h2 class="section-title"><i class="fa fa-archive"></i>Achievements and Awards</h2>
-                <div class="intro">
-                    <p>Here's a list of awards and achievements I've acquired over the years</p>
-                </div><!--//intro-->
-                <div class="item">
-                    <span class="project-title">Idea Hacks 2016</span> - <span class="project-tagline">Won Idea Hacks hackathon 2016 with Questo</span>
-                    
-                </div><!--//item-->
-                <div class="item">
-                    <span class="project-title">PitchIT@Fintech Festival</span> - 
-                    <span class="project-tagline">Beat two adult teams in a competition about pitching startups</span>
-                </div><!--//item-->
-                <div class="item">
-                    <span class="project-title">Foodie</span> - <span class="project-tagline">Won the most creative prize at IDEA Hacks 2017</span>
-                </div><!--//item-->
-                <div class="item">
-                    <span class="project-title">Intel Digital Maker Catalyst</span> - <span class="project-tagline">Was selected as a Maker to run through a program that gave me facilitation skills to improve the way I can teach people about Technology</span>
-                </div><!--//item-->
-            </section><!--//section-->
-
-            
-        </div><!--//main-body-->
-    </div>
- 
-   
- 
-    <!-- Javascript -->          
-    <script type="text/javascript" src="assets/plugins/jquery-1.11.3.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>    
-    <!-- custom js -->
-    <script type="text/javascript" src="assets/js/main.js"></script>            
+    </section>
+    <section class="footer">
+		<p id="footer-text"><i class="fas fa-code"></i> with <i class="fas fa-heart"></i> by <span>Sarvasv Kulpati</span> © 2018</p>
+	</section>
+    
 </body>
-</html> 
 
+
+
+
+
+
+</html>
